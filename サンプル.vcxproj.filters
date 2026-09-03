@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="program">
+      <UniqueIdentifier>{0c8d419b-7fbf-46a5-9d30-f09afe1cddfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\game">
+      <UniqueIdentifier>{57763062-cea8-44a8-b97d-44f2470cf494}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\system">
+      <UniqueIdentifier>{f2d9841c-2bea-4299-8e16-cc43044bae54}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="program\Game.cpp">
+      <Filter>program</Filter>
+    </ClCompile>
+    <ClCompile Include="program\Main.cpp">
+      <Filter>program</Filter>
+    </ClCompile>
+    <ClCompile Include="program\Base.cpp">
+      <Filter>program\game</Filter>
+    </ClCompile>
+    <ClCompile Include="program\Camera.cpp">
+      <Filter>program\game</Filter>
+    </ClCompile>
+    <ClCompile Include="program\Player.cpp">
+      <Filter>program\game</Filter>
+    </ClCompile>
+    <ClCompile Include="program\Hit.cpp">
+      <Filter>program\system</Filter>
+    </ClCompile>
+    <ClCompile Include="program\Random.cpp">
+      <Filter>program\system</Filter>
+    </ClCompile>
+    <ClCompile Include="program\Float3.cpp">
+      <Filter>program\system</Filter>
+    </ClCompile>
+    <ClCompile Include="program\Float2.cpp">
+      <Filter>program\system</Filter>
+    </ClCompile>
+    <ClCompile Include="program\Coin.cpp">
+      <Filter>program\game</Filter>
+    </ClCompile>
+    <ClCompile Include="program\SceneResult.cpp">
+      <Filter>program\game</Filter>
+    </ClCompile>
+    <ClCompile Include="program\SceneTitle.cpp">
+      <Filter>program\game</Filter>
+    </ClCompile>
+    <ClCompile Include="program\ScenePlaying.cpp">
+      <Filter>program\game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="program\Game.h">
+      <Filter>program</Filter>
+    </ClInclude>
+    <ClInclude Include="program\Main.h">
+      <Filter>program</Filter>
+    </ClInclude>
+    <ClInclude Include="program\Base.h">
+      <Filter>program\game</Filter>
+    </ClInclude>
+    <ClInclude Include="program\Camera.h">
+      <Filter>program\game</Filter>
+    </ClInclude>
+    <ClInclude Include="program\Player.h">
+      <Filter>program\game</Filter>
+    </ClInclude>
+    <ClInclude Include="program\Hit.h">
+      <Filter>program\system</Filter>
+    </ClInclude>
+    <ClInclude Include="program\Random.h">
+      <Filter>program\system</Filter>
+    </ClInclude>
+    <ClInclude Include="program\Float3.h">
+      <Filter>program\system</Filter>
+    </ClInclude>
+    <ClInclude Include="program\Float2.h">
+      <Filter>program\system</Filter>
+    </ClInclude>
+    <ClInclude Include="program\Coin.h">
+      <Filter>program\game</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SceneResult.h">
+      <Filter>program\game</Filter>
+    </ClInclude>
+    <ClInclude Include="program\ScenePlaying.h">
+      <Filter>program\game</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SceneBase.h">
+      <Filter>program\game</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SceneTitle.h">
+      <Filter>program\game</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
